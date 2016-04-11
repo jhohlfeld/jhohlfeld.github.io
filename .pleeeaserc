@@ -1,6 +1,0 @@
-{
-  "in": ["src/style.less"],
-  "out": "build/style.css",
-  "browsers": ["last 3 versions", "ie 9"],
-  "less": true
-}
