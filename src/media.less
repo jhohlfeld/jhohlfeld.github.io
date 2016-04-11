@@ -1,0 +1,65 @@
+@media (max-width: 700px) {
+
+    header {
+
+        img[src*=avatar] {
+            display: none;
+        }
+
+    }
+
+}
+
+@media (max-width: 570px) {
+
+    header {
+
+        text-align: center;
+        flex-direction: column;
+
+        #logo {
+            height: 8em;
+        }
+
+        section#right {
+            width: auto;
+            #info {
+                margin: 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    main {
+        .sections {
+
+            flex-direction: column;
+            align-items: center;
+
+            section {
+                width: auto;
+                text-align: center;
+
+                ul {
+                    text-align: left;
+                    margin: 0 auto;
+                    width: 50%;
+                }
+
+                .text {
+                    max-width: 20em;
+                }
+
+            }
+        }
+    }
+    footer {
+        flex-direction: column;
+        section {
+            width: auto;
+            text-align: center;
+        }
+    }
+}
